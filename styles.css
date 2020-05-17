@@ -2,6 +2,7 @@ body {
 	background-color: #f5f5f5;
 	margin-top: 35px;
 	font-family: "Arial";
+	color: #466c6f;
 }
 .conteiner {
 	margin: 0 auto;
@@ -10,6 +11,7 @@ body {
 	background-color: #9fcdcd;
 	border-radius: 10px;
 	position: relative;
+	box-sizing: border-box;
 
 }
 .orange {
@@ -27,4 +29,79 @@ body {
 	font-weight: bold;
 	box-sizing: border-box;
 	padding-left: 60px;
+	margin-top: 15px;
+	font-size: 20px;
 }
+input {
+	width: 380px;
+	height: 50px;
+	padding-left: 10px;
+	color: grey;
+	border: none;
+	/*background-color: #a9d2d2;*/
+	border-bottom: 1px solid black;
+}
+label {
+	font-size: 15px;
+}
+.wrapper {
+	width: 390px;
+	margin-top: 80px;
+	position: absolute;
+	margin-left: 35px;
+	box-sizing: border-box;
+}
+
+/*#Card_Namber {	
+	margin-top: 100px;
+}
+label:nth-child(1) {
+	margin-top: 90px;
+}*/
+.label1 {
+    height: 63px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+input::placeholder {
+	color: grey;
+	font-size: 20px;
+	font-family: "Arial";
+}
+.label2 {
+	height: 63px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.label2 input {
+	width: 108px;
+}
+.label3 {
+	height: 63px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 16px;
+}
+.label3 input {
+	width: 108px;
+}
+.label4 {
+	height: 63px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 16px;
+}
+.label4 input {
+	width: 108px;
+}
+.img {
+	
+}
+
