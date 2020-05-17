@@ -1,0 +1,10 @@
+body {
+	background-color: #f5f5f5;
+	margin-top: 35px;
+}
+.conteiner {
+	margin: 0 auto;
+	width: 700px;
+	height: 485px;
+	background-color: #9fcdcd;
+}
